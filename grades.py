@@ -62,7 +62,7 @@ Bminusv3 = (range(8,13),range(4,7),range(4,7),range(5,9),range(2,5),range(2,5),r
 Cplus = (range(7,13),range(3,7),range(3,7),range(5,9),range(2,5),range(2,5),range(75,105))
 C = (range(6,13),range(3,7),range(3,7),range(4,9),range(2,5),range(2,5),range(70,105))
 Cminusv1 = (range(6,13),range(3,7),range(3,7),range(3,9),range(5),range(5),range(70,105))
-Cminusv2 = (range(5,13),range(3,7),range(3,7),range(4,9),range(2,5),range(2,5),range(70,105))
+Cminusv2 = (range(5,13),range(7),range(7),range(4,9),range(2,5),range(2,5),range(70,105))
 Cminusv3 = (range(6,13),range(3,7),range(3,7),range(4,9),range(2,5),range(2,5),range(70))
 
 grades = {"A+":[Aplus,],"A":[A,],"A-":[Aminusv1,Aminusv2,Aminusv3],"B+":[Bplus,],"B":[B,],"B-":[Bminusv1,Bminusv2,Bminusv3],"C+":[Cplus,],"C":[C,],"C-":[Cminusv1,Cminusv2,Cminusv3]}
