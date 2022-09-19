@@ -5,7 +5,9 @@ st.markdown('# Math 9 Grade Calculator')
 
 st.markdown('## Essential Outcomes')
 
-essout = st.multiselect("Select all EO's that you have completed:",["EO1","EO2","EO3","EO4","EO5","EO6"])
+essout = st.multiselect("Select all EO's that you have completed:",["Select All","EO1","EO2","EO3","EO4","EO5","EO6"])
+if "Select All" in essout:
+    essout = ["EO1","EO2","EO3","EO4","EO5","EO6"]                                                                   
 essouttot = len(essout)
 
 
