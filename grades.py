@@ -76,12 +76,4 @@ else:
         grade = gradecheck(studentgradelist)
         st.write(f"Your grade: {grade}")
     
-#     ((totalhw == 3) + (videoquiztot < 70) + (totalgo == 5) == 1):
-#         grade = "C-"
-#     if (geoutMAtot == 3) and  (geoutPytot == 3) and (pyhomeworktotal == 2) and (matlabhomeworktotal == 2) and videoquiztot >= 70:
-#         grade = "C"
-    
-        
-    
 
-#st.write(f"You have completed {len(pyhomework)} Python Homework Assignments")
