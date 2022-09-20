@@ -44,7 +44,7 @@ studentgradelist = [totalgo,geoutMAtot,geoutPytot,totalhw, matlabhomeworktotal, 
 def gradecheck(student):
     for grade in grades:
         for b in range(len(grades[grade])):
-            print([student[a] in grades[grade][b][a] for a in range(7)])            
+            #print([student[a] in grades[grade][b][a] for a in range(7)])            
             total = sum([student[a] in grades[grade][b][a] for a in range(7)])
             if total == 7:
                 return grade
